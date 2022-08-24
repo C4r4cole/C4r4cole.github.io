@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Construction du site à partir de La horde du contrevent d'Alain Damasio -->
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="La_horde_du_contrevent.css">
+        <title>La horde du contrevent</title>
+    </head>
+
+    <body>
+
+        <header>
+
+            <img src="images/fer.png">
+
+                <nav>
+                    <ul class="sommaire">
+                        <li><a href="#biographie">Biographie</a></li>
+                        <li><a href="#influences">Influences</a></li>
+                        <li><a href="#chapitres">Chapitres</a></li>
+                        <li><a href="#personnages">Les personnages</a></li>
+                    </ul>
+                </nav>
+        </header>                
+
+        <h1>La horde du contrevent</h1>
+
+        <section>
+            <aside>
+                <p class="vents"><strong>, '', ,  ,,, ''</strong></p>
+            </aside>
+
+                <h2 id="biographie">Biographie</h2>
+                
+            <article>
+
+                <p class="punchline">¿, Nous sommes faits de l'<em>étoffe</em> dont sont <span class="beau">tissés</span> les <strong>vents</strong>.<br/>
+                    <a href="https://lavolte.net/livres/la-horde-du-contrevent" title="Site officiel" >Plus de renseignements sur le site de La Volte</a></p>
+
+                <p><img src="images/omega.jpg" class="omega" title="omega">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <span class="gras">quis nostrud exercitation ullamco laboris nisi ut aliquip</span> ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <span class="barré">cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</span> cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni <mark>dolores</mark> eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+
+            </article>
+
+            <h2 id="influences" class="stop">Influences</h2>
+
+                <ol>
+                    <li>George Orwell</li>
+                    <li>Aldous Huxley</li>
+                    <li>Stanley Kubrick</li>
+                </ol>
+
+            <h2 id="chapitres">Chapitres</h2>
+
+            <p class="sommaire"><a href="Chapitres/Pharéole.html">Chapitre 1</a></p>
+
+            <h2 id="personnages">Les personnages</h2>
+            
+                <figure>
+                    <a href="images/sov.jpg"><img src="images/sov_mini.jpg" alt="Sov" title="Sov"/></a>
+                    <a href="images/caracole.jpg"><img src="images/caracole_mini.jpg" alt="Caracole" title="Caracole"/></a>
+                    <a href="images/golgoth.jpg"><img src="images/golgoth_mini.jpg" alt="Golgoth" title="Golgoth"/></a>
+                    <figcaption>) Sov Strochnis, scribe // ¿'Caracole, troubadour // Ω Golgoth, traceur</figcaption>
+                </figure>
+
+                <table>
+
+                    <caption>Le Fer</caption>
+
+                    <tr>
+                      <th>Nom</th>
+                      <th>Profession</th>
+                      <th>N° Horde</th>
+                    </tr>
+
+                    <tr>
+                        <td>Sov</td>
+                        <td>Scribe</td>
+                        <td>34ème Horde</td>
+                    </tr>
+
+                    <tr>
+                        <td>Caracole</td>
+                        <td>Troubadour</td>
+                        <td>34ème Horde</td>
+                    </tr>
+
+                    <tr>
+                        <td>Golgoth</td>
+                        <td>Traceur</td>
+                        <td>34ème Horde</td>
+                    </tr>
+                </table>
+
+                <form method="post" action="traitement.php">
+
+                    <fieldset>
+
+                        <legend>Vos coordonnées</legend>
+
+                        <p class="formulaire1">
+                            
+                            <label for="Nom">Nom</label> : <input type="texte" name="Nom" id="nom" autofocus><br/>
+                            <label for="Prénom">Prénom</label> : <input type="texte" name="Prénom" id="Prénom" size="60%"><br/>
+                            <label for="Age">Age</label> : <input type="texte" name="Age" id="Age" maxlength="3"><br/>
+                            <label for="Ville">Ville</label> : <input type="texte" name="Ville" id="Ville" value="Paris"><br/>
+                            <label for="Couleur">Couleur préférée</label> : <input type="texte" name="Couleur" id="Couleur" placeholder="Vert"><br/>
+
+                        </p>
+
+                    </fieldset>
+
+                    <fieldset>
+
+                        <legend>Votre passion pour Alain Damasio</legend>
+
+                        <p class="formulaire2">
+                            
+                            <label for="pass">Mot de passe</label> : <input type="password" name="pass" id="pass" required><br/>
+                            <label for="personnage">Quel est votre personnage préféré ?</label> : <textarea name="personnage" id="personnage">Vous pouvez écrire ici quel est votre personnage prféré de la horde du contrevent</textarea><br/>
+                            <label for="mail">Adresse e-mail</label> : <input type="email" name="mail" id="mail" required><br/>
+                            <label for="url">url de votre site</label> : <input type="url" name="url" id="url"><br/>
+                            <label for="tel">N° de téléphone</label> : <input type="tel" name="tel" id="tel"><br/>
+
+                        </p>
+
+                        <p class="formulaire3">
+                            
+                            <label for="nombre">Votre nombre préféré</label> : <input type="number" name="nombre" id="nombre" min="10" max="100" step="10"><br/>
+                            <label for="range">Votre nombre superstitieux</label> : <input type="range" name="range" id="range" min="10" max="100" step="10"><br/>
+                            <label for="color">Choisissez votre couleur</label><input type="color" name="couleur" id="color"><br/>
+                            <label for="date">Date de naissance</label> : <input type="date" name="date" id="date"><br/>
+                            <label for="search">Saisissez votre recherche</label> : <input type="search" name="search" id="search"><br/>
+
+                        </p>
+
+                        <p class="formulaire4">
+
+                            Quel est votre personnage préféré ?<br/>
+                            <input type="checkbox" name="Sov" id="Sov"> <label for="Sov">Sov</label><br/>
+                            <input type="checkbox" name="Caracole" id="Caracole" checked> <label for="Caracole">Caracole</label><br/>
+                            <input type="checkbox" name="Golgoth" id="Golgoth"> <label for="Golgoth">Golgoth</label>
+                            
+                        </p>
+
+                        <p class="formulaire5">
+                            
+                            Quel est votre personnage secondaire préféré ?<br/>
+                            <input type="radio" name="secondaire" value="erg machaon" id="erg" checked> <label for="erg">Erg Machaon</label><br/>
+                            <input type="radio" name="secondaire" value="Coriolis" id="Coriolis"> <label for="Coriolis">Coriolis</label><br/>
+                            <input type="radio" name="secondaire" value="Les jumeaux" id="twins"> <label for="twins">Les Jumeaux</label>
+
+                        </p>
+
+                        <p class="formulaire6">
+
+                            <label for="livre">Quel est votre second livre préféré d'Alain Damasio ?</label><select name="livre" id="livre">
+                                <option value="La zone du dehors" selected>La zone du dehors</option>
+                                <option value="Les furtifs">Les furtifs</option>
+                                <option value="Aucun souvenir assez solide">Aucun souvenir assez solide</option>
+                                
+                            </select>
+                            
+                        </p>
+
+                        <input type="submit" name="bouton" value="C'est parti !">
+
+                    </fieldset>
+                    
+                </form>
+
+        </section>
+
+        <footer>
+            <p class="sommaire"><a href="mailto.francoismoulin37@gmail.com">Nous contacter</a></p>
+            <p class="sommaire"><a href="Illustrations.zip">Illustrations</a></p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,293 @@
+
+
+/* voici comment faire un commentaire*/
+@font-face{
+	font-family: 'winds';
+	src: url('fonts/TradeWinds-Regular.ttf');
+}
+
+header
+{
+	display: flex;
+	flex-direction: row;
+}
+
+nav ul
+{
+	display: flex;
+	list-style-type: none;
+}
+
+nav li
+{
+	margin-right: 15px;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-family: winds;
+}
+
+body
+{
+	/*background-image: url("Images/montagne.jpeg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;*/
+
+	background: url("Images/montagne.jpeg") fixed no-repeat center;
+	background-color: #cbcbcb;
+}
+
+p
+{
+    color: white;
+    font-family: verdana, arial, georgia, sans-serif;
+    text-align: justify;
+    background-color: #CE5012;
+    opacity: 0.8;
+    padding: 12px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1
+{
+	color: #CE5012;
+	font-size: 2em;
+	font-family: winds, courier new, arial, verdana, sans-serif;
+	font-style: italic;
+	text-align: center;
+	background-color: #1C284A;
+	border: 3px white outset;
+	border-radius: 50px 5px 50px 5px;
+	box-shadow: 6px 6px 6px black;
+}
+
+h2
+{
+	color: #CE5012;
+	font-size: 1.5em;
+	font-family: courier new, arial, verdana, sans-serif;
+	text-align: center;
+	background-color: #1C284A;
+}
+
+em
+{
+	color: #1C284A;
+}
+
+strong
+{
+	color: #1C284A;
+}
+
+figure
+{
+	font-family: verdana, arial, georgia, sans-serif;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+	align-items: center;
+	border: 3px #1C284A solid;
+}
+
+figcaption
+{
+	color: #CE5012;
+}
+
+article
+{
+	width: 50%;
+	min-width: 400px;
+	margin-left: 50px;
+	height: 400px;
+	overflow: auto;
+}
+
+.vents
+{
+	color: #CE5012;
+	text-align: center;
+}
+
+.beau
+{
+	color: #1C284A;
+}
+
+ol
+{ 
+	font-family: verdana, arial, georgia,sans-serif;
+	text-align: center;
+	list-style-type: none;
+	color: #CE5012;
+	font-size: 2em;
+}
+
+li
+{
+	text-align: center;
+	text-decoration: none;
+}
+
+.gras
+{
+	font-weight: bold;
+}
+
+.barré
+{
+	text-decoration: line-through;
+}
+
+.omega
+{
+	float: left;
+}
+
+.stop
+{
+	clear: both;
+}
+
+.sommaire
+{
+	text-align: center;
+}
+
+.punchline
+{
+	text-align: center;
+}
+
+mark
+{
+	background-color: #1C284A;
+	color: #CE5012;
+}
+
+a
+{
+	color: white;
+}
+
+a:hover
+{
+	color: #1C284A;
+}
+
+a:active
+{
+	background-color: white;
+}
+
+a:visited
+{
+	color: white;
+}
+
+table
+{
+	border: 1px solid;
+	border-collapse: collapse;
+	padding: 5px;
+	background-color: #CE5012;
+	color: white;
+	text-align: center;
+	margin: auto;
+}
+
+td
+{
+	border: 1px solid;
+	border-collapse: collapse;
+	padding: 5px;
+	font-family: verdana;
+}
+
+th
+{
+	border: 1px solid;
+	color: #1C284A;
+	font-family: verdana;
+}
+
+caption
+{
+	font-size: 1.3em;
+	color: #1C284A;
+	font-family: verdana;
+	font-weight: bold;
+	background-color: navajowhite;
+}
+
+aside
+{
+	display: flex;
+	justify-content: right;
+}
+
+.formulaire1, .formulaire2, .formulaire3, .formulaire4, .formulaire5, .formulaire6
+{
+	background-color: white;
+	color: #1C284A;
+}
+
+textarea
+{
+	width: 500px;
+	height: 200px;
+}
+
+fieldset
+{
+	background-color: #1C284A;
+}
+
+legend
+{
+	color: #CE5012;
+	font-family: verdana, sans-serif;
+	font-size: 1.3em;
+}
+
+:required
+{
+	background-color: red;
+	opacity: 20%;
+}
+
+:focus
+{
+	background-color: green;
+	opacity: 20%;
+}
+
+@media all and (max-width: 1024px)
+{
+	nav ul
+	{
+		flex-direction: column;
+	}
+
+	nav li
+	{
+		display: flex;
+		justify-content: right;
+	}
+
+	nav
+	{
+		position: absolute;
+		right: 50px;
+	}
+
+	h1
+	{
+		position: relative;
+		top: 50px;
+	}
+
+}
