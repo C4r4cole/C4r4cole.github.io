@@ -291,3 +291,10 @@ legend
 	}
 
 }
+
+.titleHorde {
+	color: white;
+	background-color: #CE5012;
+	transform: translateX(-1000px);
+	transition: 2s;
+}
