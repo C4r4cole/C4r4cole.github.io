@@ -110,6 +110,7 @@ article
 {
 	color: #CE5012;
 	text-align: center;
+	position: absolute;
 }
 
 .beau
@@ -297,4 +298,10 @@ legend
 	background-color: #CE5012;
 	transform: translateX(-1000px);
 	transition: 2s;
+}
+
+.artistNames{
+	color: #1C284A;
+	transform: scale(2);
+	transition: 2s ease;
 }
